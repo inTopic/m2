@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="speroteck_event_metrics_init">
+        <observer name="extra_php_modules" instance="Speroteck\Custom\Model\Metrics\ExtraPHPModules\Metric"/>
+        <observer name="php_version" instance="Speroteck\Custom\Model\Metrics\PHPVersion\Metric"/>
+    </event>
+</config>

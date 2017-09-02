@@ -1,0 +1,19 @@
+<?php
+$metrics = array_reverse($this->getMetrics());
+?>
+<table>
+    <thead>
+    <tr>
+        <td>Metric Name</td>
+        <td>Metric Value</td>
+    </tr>
+    </thead>
+    <tbody style="color: floralwhite">
+    <?php foreach ($metrics as $metric): ?>
+        <tr style="background: green">
+            <td><?php echo $metric->getName(); ?></td>
+            <td style="max-width: 400px;"><?php echo $metric->getValue(); ?></td>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>

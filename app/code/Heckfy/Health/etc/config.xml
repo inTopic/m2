@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <!--<metrics>-->
+            <!--<customer_amount>-->
+                <!--<active>1</active>-->
+                <!--<model>Heckfy\Health\Model\Metrics\CustomerAmount\Metric</model>-->
+                <!--<name>Customer Amount Metric</name>-->
+            <!--</customer_amount>-->
+            <!--<visitor_amount>-->
+                <!--<active>1</active>-->
+                <!--<model>Heckfy\Health\Model\Metrics\VisitorAmount\Metric</model>-->
+                <!--<name>Visitor Amount Metric</name>-->
+            <!--</visitor_amount>-->
+            <!--<apache_version>-->
+                <!--<active>1</active>-->
+                <!--<model>Heckfy\Health\Model\Metrics\ApacheVersion\Metric</model>-->
+                <!--<name>Apache Version Metric</name>-->
+            <!--</apache_version>-->
+            <!--<calculate_orders>-->
+                <!--<active>1</active>-->
+                <!--<model>Heckfy\Health\Model\Metrics\CalculateOrders\Metric</model>-->
+                <!--<name>Calculate Orders Metric</name>-->
+            <!--</calculate_orders>-->
+            <!--<extra_php_modules>-->
+                <!--<active>1</active>-->
+                <!--<model>Heckfy\Health\Model\Metrics\extraPHPmodules\Metric</model>-->
+                <!--<name>Extra PHP modules Metric</name>-->
+            <!--</extra_php_modules>-->
+            <!--<mysql_version>-->
+                <!--<active>1</active>-->
+                <!--<model>Heckfy\Health\Model\Metrics\MysqlVersion\Metric</model>-->
+                <!--<name>Mysql version Metric</name>-->
+            <!--</mysql_version>-->
+            <!--<server_and_local_date>-->
+                <!--<active>1</active>-->
+                <!--<model>Heckfy\Health\Model\Metrics\ServerAndLocalDate\Metric</model>-->
+                <!--<name>Server And Local Date Metric</name>-->
+            <!--</server_and_local_date>-->
+            <!--<php_version>-->
+                <!--<active>1</active>-->
+                <!--<model>Heckfy\Health\Model\Metrics\PHPVersion\Metric</model>-->
+                <!--<name>PHP version Metric</name>-->
+            <!--</php_version>-->
+            <!--<custom_metric>-->
+                <!--<active>1</active>-->
+                <!--<model>Heckfy\Health\Model\CustomMetric</model>-->
+                <!--<name>CustomMetric</name>-->
+            <!--</custom_metric>-->
+        <!--</metrics>-->
+    </default>
+</config>

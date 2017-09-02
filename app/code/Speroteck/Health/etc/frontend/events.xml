@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="speroteck_event_metrics_init">
+        <!--<observer name="status_metric" instance="Speroteck\Health\Model\Metrics\Status\Metric"/>-->
+        <observer name="apache_version_metric" instance="Speroteck\Health\Model\Metrics\ApacheVersion\Metric"/>
+        <observer name="calculate_orders_metric" instance="Speroteck\Health\Model\Metrics\CalculateOrders\Metric"/>
+        <observer name="customer_amount_metric" instance="Speroteck\Health\Model\Metrics\CustomerAmount\Metric"/>
+        <observer name="mysql_version_metric" instance="Speroteck\Health\Model\Metrics\MysqlVersion\Metric"/>
+        <observer name="visitor_amount_metric" instance="Speroteck\Health\Model\Metrics\VisitorAmount\Metric"/>
+        <observer name="server_and_local_date_metric" instance="Speroteck\Health\Model\Metrics\ServerAndLocalDate\Metric"/>
+    </event>
+    <event name="speroteck_status_metric">
+        <observer name="status_metric" instance="Speroteck\Health\Model\Metrics\Status\Metric"/>
+    </event>
+</config>

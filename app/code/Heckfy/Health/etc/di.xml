@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Heckfy\Health\Api\HealthInterface"
+                type="Heckfy\Health\Model\Health"/>
+    <type name="Heckfy\Health\Model\Basic">
+        <!--<plugin name="Heckfy_Health::before::" type="Heckfy\Health\Plugin\Before" sortOrder="1"/>-->
+        <!--<plugin name="Heckfy_Health::after::" type="Heckfy\Health\Plugin\After" sortOrder="1"/>-->
+        <plugin name="Heckfy_Health::around::" type="Heckfy\Health\Plugin\Around" sortOrder="1"/>
+    </type>
+</config>

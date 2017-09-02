@@ -1,0 +1,17 @@
+<!--<?xml version="1.0"?>-->
+<!--<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+      <!--layout="2columns-left" xsi:noNamespaceSchemaLocation=-->
+              <!--"urn:magento:framework:View/Layout/etc/-->
+       <!--page_configuration.xsd">-->
+<!--<head>-->
+    <!--&lt;!&ndash;<title>health page</title>&ndash;&gt;-->
+<!--</head>-->
+<!--<body>-->
+    <!--<referenceContainer name="content">-->
+        <!--<block class="Heckfy\Health\Block\Landingspage" name="landingsblock"-->
+               <!--template="Heckfy_Health::landingspage.phtml"/>-->
+    <!--</referenceContainer>-->
+    <!--<referenceBlock name="catalog.compare.sidebar" remove="true"/>-->
+    <!--<remove name="wishlist_sidebar"/>-->
+<!--</body>-->
+<!--</page>-->
